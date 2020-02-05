@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 10vmin 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ececea;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+#startresetbtn {
+    margin: 4vmin 0;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #b5c4b1;
+}
+
+#submitbtn,
+#setrange {
+    margin: 2vmin 0;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #b5c4b1;
+}
+
+#small,
+#big {
+    margin: 2vmin 0;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#inputValue {
+    margin: 2vmin 0;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#small,
+#big {
+    opacity: 0.4;
+}
